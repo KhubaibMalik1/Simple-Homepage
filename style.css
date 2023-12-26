@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container{
+    padding-inline: 7rem;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 5rem;
+    align-items: center;
+}
+
+.links a{
+    padding: 0px 18px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #223344;
+}
+
+.toggle-btn{
+    background: #000;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    padding: 2px;
+}
+
+.toggle-btn:hover{
+    cursor: pointer;
+}
+
+.sun{
+    background: #fff;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+
+.hero{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.right img{
+    width: 35rem;
+    margin-top: 4rem;
+}
+
+.left{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 3rem;
+}
+
+.first-p p{
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+h1{
+    font-size: 3.75rem;
+    font-weight: 700;
+}
+
+.sec-p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #909193;
+}
+
+.btns{
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.btn{
+    display: flex;
+    background-color: #2A4DD0;
+    width: 10.5rem;
+    height: 3rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+}
+
+.btn a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.sub-btn{
+    margin-left: 2rem;
+}
+
+.sub-btn a {
+    color: #2A4DD0;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.last-sec{
+    display: flex;
+    margin-top: 1.5rem;
+    width: 29vw;
+    align-items: center;
+}
+
+.last-p{
+    margin-left: 8px;
+    font-size: 14px;
+    color:#909193;
+    font-weight: 400;
+}
+
+
+.check{
+    margin-left: 25px;
+}
